@@ -1,0 +1,94 @@
+/////  Cannon: /////
+
+First create casting molds, x4
+------------------------------
+clay | wood | clay
+clay | wood | clay
+clay | clay | clay
+
+The cannon:
+-----------
+cannon mold | bronze block | cannon mold
+cannon mold | bronze block | cannon mold
+coal block  | coal block   | coal block
+
+The cannonball 
+--------------
+
+(May be turned off in settings, so ask server owner before wasting resources)
+
+empty        | bronze ingot | empty
+bronze ingot | bronze ingot | bronze ingot
+empty        | bronze ingot | empty
+
+You also need:
+--------------
+-Gunpowder from the tnt mod (to fire the cannon.)
+-A stick (To unload the cannon.)
+-A torch (To fire/ignite the cannon.)
+
+How to use:
+-----------
+
+The cannon can be (partially) disabled in the mod_settings.lua file. 
+Assuming the cannon is fully active, these are the steps. (Chat will tell you if something is disabled.)
+
+-Place the cannon. The cannon requires two blocks, like a bed.
+-Take gunpowder into your hand, and punch the cannon with it.
+-Take cannonball into your hand and punch the cannon with it.
+-To unload the cannon again, punch it with a stick. The cannonball and powder will pop out.
+-To fire the cannon, punch it with a regular torch.
+
+The cannon will fire the distance set in mod_settings.lua and the trajectory will drop one block every third of the way.
+Once the cannon reaches its max distance (set in mod_settings.lua) it will create a semi-random crater, the size of which
+is also set in mod_settings.lua. Please be aware this may be very large! If along the way the cannon has to punch through
+n nodes (n is also set in mod_settings.lua) it will stop and crater right there. Cannon gone? You probably tried to shoot
+through n nodes too close to your cannon.
+
+Nodes punched through along the way will not drop drops. In your crater about 60% of nodes will be destroyed without drops.
+
+THIS IS NOT A MINING TOOL.
+
+///// Cannon hatches /////
+
+The cannon hatches were based on the trapdoor mod, they function the same way.
+If you have trouble placing them, place a dirt block behind where you want them, then
+remove after placing.
+
+
+Crafting:
+---------
+
+Colored/painted wood:
+---------------------
+default wood | default wood | default wood
+default wood | default wood | default wood
+dye (color)  | dye (color)  | dye (color)
+
+Colors: Blue, Cyan, Green, Orange, Pink, Purple, Red, White, Yellow, Black
+
+Special wood types:
+-------------------
+(type) wood planks | (type) wood planks | (type) wood planks
+(type) wood planks | (type) wood planks | (type) wood planks
+(type) wood planks | Iron lump         | (type) wood planks
+
+Available wood types (from Moretrees mod)
+Beech, Birch, Fir, Oak, Palm, Rubber, Sequoia, Spruce, Willow, Pine, Jungle, Acacia
+
+Standard wood.
+
+///// Flag(s) /////
+
+Only one flag at the moment.
+
+Crafting:
+---------
+
+wool, black | wool, black | wool, black 
+dye, white  | dye, white  | dye, white  
+empty       | empty       | empty
+
+
+
+		
